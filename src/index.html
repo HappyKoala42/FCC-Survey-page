@@ -1,0 +1,83 @@
+<html>
+
+<head>
+  <title>Survey Page</title>
+</head>
+
+<body>
+  <main>
+    <div>
+      <h1 id="title">Survey Page</h1>
+      <p id="description">
+        Cat ipsum dolor sit amet, murder hooman toes find a way to fit in tiny box. Hiding behind the couch until lured out by a feathery toy climb a tree, wait for a fireman jump to fireman then scratch his face so kitty ipsum dolor sit amet, shed everywhere
+        shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Claws in your leg. Sweet beast hiiiiiiiiii feed me now vommit food and eat it again that box? i can fit in that box fall over dead (not really
+        but gets sypathy).
+
+      </p>
+    </div>
+
+    <form action="" id="survey-form">
+      <p id="info">Fill out the form below!</p>
+      <div>
+        <label id="name-label" for="name">Name: </label>
+        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+
+      <div>
+        <label id="email-label" for="email">Email: </label>
+        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+      </div>
+
+      <div>
+        <label id="number-label" for="number">Age: </label>
+        <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+      </div>
+
+      <div>
+        <label for="dropdown">Dropdown: </label>
+      
+      <select id="dropdown">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+       </select>
+       </div>
+
+      <div class="labels">Radio options: </div>
+      <div class="option">
+        <input name="radio-buttons" value="1" type="radio">
+        <label class="chk-label" for="radio-buttons">Option 1</label>
+      </div>
+      <div class="option">
+        <input name="radio-buttons" for="radio-buttons" value="1" type="radio">
+        <label class="chk-label" for="radio-buttons">Option 2</label>
+      </div>
+
+      <div>
+        <label for="checkbox">Checkbox Options: </label>
+      </div>
+
+      <ul>
+        <li> <input type="checkbox" value="1"><label class="chk-label" for="checkbox">Option 1</label></li>
+        <li> <input type="checkbox" value="2"><label class="chk-label" for="checkbox">Option 2</label></li>
+        <li> <input type="checkbox" value="3"><label class="chk-label" for="checkbox">Option 3</label></li>
+      </ul>
+
+      <div>
+        <label for="comment">Additional Comment:</label>
+      </div>
+      <textarea name="comments" id="comments" cols="78" rows="10"></textarea>
+
+      <div>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+
+    </form>
+
+  </main>
+
+  <!--   results   -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

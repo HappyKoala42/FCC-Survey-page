@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {
+  font-family: "raleway", sans-serif;
+  background-color: hsl(500, 40%, 90%);
+}
+
+form {
+  background-color: hsl(180, 40%, 85%);
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 11.2em;
+  margin-bottom: 1.2em;
+}
+
+input[type="radio"] {
+  margin-left: 16.9em;
+  margin-bottom: 1.2em;
+}
+
+#title {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+#description {
+  text-align: justify;
+  width: 85%;
+  max-width: 85%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#name {
+  width: 350px;
+  height: 30px;
+  margin-left: 8%;
+  margin-top: 1em;
+}
+
+#email {
+  width: 350px;
+  height: 30px;
+  margin-left: 8.5%;
+  margin-top: 1em;
+}
+
+#number {
+  margin-top: 1em;
+  margin-left: 10%;
+  width: 100px;
+  height: 30px;
+}
+
+#dropdown {
+  margin-top: 1em;
+  margin-left: 3%;
+  width: 200px;
+  height: 30px;
+}
+
+.labels {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 15%;
+}
+
+label {
+  margin-left: 15%;
+}
+
+.chk-label {
+  margin-left: 0px;
+}
+
+#info {
+  text-align: center;
+  font-size: 22px;
+}
+
+textarea {
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 600px) {
+  textarea {
+    margin-left: 0%;
+    width: 390px;
+  }
+}
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  margin-left: 40%;
+  border: 0px solid;
+}
